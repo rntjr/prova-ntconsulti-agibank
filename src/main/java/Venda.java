@@ -46,7 +46,7 @@ public class Venda {
 
         String[] produtoLista = texto.toString().split(",");
 
-        for (String produtoItem: produtoLista){
+        for (String produtoItem : produtoLista) {
             String[] atributo = produtoItem.split("-");
 
             Produto produto = new Produto();

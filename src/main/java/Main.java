@@ -11,13 +11,13 @@ public class Main {
         ArrayList<Venda> vendas = new ArrayList<>();
         Arquivo file = new Arquivo();
 
-        for (String arquivo: pastaPadraoIn.list()){
+        for (String arquivo : pastaPadraoIn.list()) {
             if (arquivo.contains(".dat")) {
                 file.setCaminhoArquivo(pastaPadraoIn + "\\" + arquivo);
-                file.lerArquivo(vendedores,clientes,vendas);
+                file.lerArquivo(vendedores, clientes, vendas);
             }
         }
 
-        file.gerarArquivo(pastaPadraoOut.toString(),vendedores,clientes,vendas);
+        file.gerarArquivo(pastaPadraoOut.toString(), vendedores, clientes, vendas);
     }
 }
