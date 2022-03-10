@@ -37,7 +37,7 @@ public class Arquivo {
 
     private static String gerarNomeArquivo(String pastaPadraoOut) {
         String arquivo = "arquivo";
-        String extensao = ".dat";
+        String extensao = ".done.dat";
         pastaPadraoOut = pastaPadraoOut + "\\";
         String nomeArquivo = arquivo + extensao;
         String caminhoCompletoArquivo = pastaPadraoOut + nomeArquivo;
