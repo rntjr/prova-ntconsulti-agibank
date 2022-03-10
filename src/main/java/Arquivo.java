@@ -10,8 +10,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.stream.Collectors;
 
-import org.jetbrains.annotations.NotNull;
-
 public class Arquivo {
     private String caminhoArquivo;
 

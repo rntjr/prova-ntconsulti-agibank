@@ -1,5 +1,4 @@
 import java.math.BigDecimal;
-import java.math.MathContext;
 
 public class Vendedor {
     private String cpf;
